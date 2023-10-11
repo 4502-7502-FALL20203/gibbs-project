@@ -3,7 +3,7 @@ head {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgb(253, 13, 13);
+	background-color: rgb(254, 249, 255);
 }
 
 
@@ -16,10 +16,15 @@ body {
 }
 
 nav {
+	display: flex;
+	gap: 30px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	color: rgb(253, 13, 13)
-	margin: auto;	
+	font-size: 20px;
+	font-weight: bolder;
+	color: rgb(105, 89, 88)
+	margin: auto;
+	justify-content: space-evenly;
+	text-decoration: none;
 }
 
 h1 {
@@ -29,7 +34,7 @@ h1 {
 	flex-direction: column;
 	font-family: 'Yeseva One', serif;
 	font-size: 50px;
-	color: rgb(253, 253, 13);
+	color: rgb(31, 0, 41);
 }
 
 h2 {
@@ -52,26 +57,39 @@ h2 {
 .listings {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	width: 30%;
+	margin: auto;
 	font-family: 'Playfair Display', serif;
 	font-size: 25px;
-	color: rgb(253, 253, 13)
+	color: rgb(170, 161, 200)
+
 }
 
-ul {
+ul li{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	color: rgb(13, 53, 253)
+	color: rgb(105, 89, 88)
 	margin: auto;
+	text-decoration: none;
 
 }
 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Yeseva One', serif;
-      
+a {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(105, 89, 88)
+	margin: auto;
+	text-decoration: none;
+	
+
+}
+
+
+
+	
