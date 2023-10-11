@@ -1,54 +1,77 @@
-body{
-        background-color: #FF0000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
+head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(253, 13, 13);
+}
 
 
-      h1{
-        font-family: Notif Serif;
-        font-size: 4.0em;
-        font-weight: 600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: black;
-      }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(254, 249, 255);
+}
 
+nav {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: rgb(253, 13, 13)
+	margin: auto;	
+}
 
-      nav{
-        max-width: 600px;
-        margin: auto;
-        font-size: 2.0em;
-      }
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Yeseva One', serif;
+	font-size: 50px;
+	color: rgb(253, 253, 13);
+}
 
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: rgb(216, 167, 202)
+}
 
-      div{
-        font-family: Onest;
-        font-size: 2em;
-        font-weight: 600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: black;
-      }
+.mailing-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 
+.listings {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	color: rgb(253, 253, 13)
+}
 
-  p{
-        font-family: Quicksand;
-        font-weight: 300;
-        font-size: 1.3em;
-        max-width: 100%;
-        overflow: scroll;
-      }   
+ul {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: rgb(13, 53, 253)
+	margin: auto;
 
-font-family: 'Quick Sand', sans-serif;
-font-family: 'Noto Serif', serif;
-font-family: 'Onest', serif;
-  a href{
-        color: #89CFF0;
-  } 
+}
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Yeseva One', serif;
+      
