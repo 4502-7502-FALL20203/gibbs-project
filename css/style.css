@@ -1,0 +1,121 @@
+head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(218, 218, 218);
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(157, 55, 55);
+
+}
+
+.pic {
+    width: 30%;
+}
+
+nav {
+	display: flex;
+	gap: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	margin: auto;
+	justify-content: space-evenly;
+	text-decoration: none;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Yeseva One', serif;
+	font-size: 50px;
+	color: rgb(31, 0, 41);
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: rgb(218, 218, 218);
+}
+
+.mailing-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.listings {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+	margin: auto;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	color: rgb(218, 218, 218);
+
+}
+
+ul li{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: rgb(218, 218, 218);
+	margin: auto;
+	text-decoration: none;
+
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(218, 218, 218);
+	margin: auto;
+	text-decoration: none;	
+
+}
+
+.chicago {
+	width: 30%;
+}
+
+.gallery-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.media-holder {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.text-holder {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
